@@ -1,0 +1,98 @@
+{
+  "name": "tdx-agent-market",
+  "version": "1.0.0",
+  "description": "A one-stop AI financial experience platform with built-in professional Agents for stock screening, stock diagnosis, capital flow analysis and technical analysis, covering the complete investment research workflow.",
+  "author": {
+    "name": "WorkBuddy Expert",
+    "email": "expert@workbuddy.cn"
+  },
+  "agents": [
+    "./agents/tdx-agent-market-team-lead.md",
+    "./agents/warren-buffett.md",
+    "./agents/peter-lynch.md",
+    "./agents/benjamin-graham.md",
+    "./agents/william-oneil.md",
+    "./agents/john-neff.md"
+  ],
+
+  "expertType": "team",
+  "agentName": "tdx-agent-market-team-lead",
+  "teamInfo": {
+    "leadAgent": "tdx-agent-market-team-lead",
+    "memberAgents": ["warren-buffett", "peter-lynch", "benjamin-graham", "william-oneil", "john-neff"]
+  },
+
+  "displayName": {
+    "en": "tdx-agent-market",
+    "zh": "通达信智能体广场"
+  },
+  "profession": {
+    "en": "tdx-agent-market",
+    "zh": "通达信智能体广场"
+  },
+  "displayDescription": {
+    "en": "A one-stop AI financial experience platform. Built-in professional Agents for smart stock screening, stock diagnosis, capital flow and technical analysis covering the complete investment research workflow.",
+    "zh": "一站式AI金融体验平台，内置智能选股、个股诊断、资金风向、技术分析等专业Agent，覆盖完整投研。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "zh": "请帮我的持仓做一次多策略综合研判，听听五位投资大师怎么看。",
+    "en": "Please run a multi-strategy review of my holdings and let the five investing masters weigh in."
+  },
+  "plugin": "tdx-agent-market",
+  "tags": [
+    { "en": "Value Investing", "zh": "价值投资" },
+    { "en": "Growth Stock Hunting", "zh": "成长股挖掘" },
+    { "en": "Multi-Strategy Analysis", "zh": "多策略研判" }
+  ],
+  "quickPrompts": [
+    { "en": "Please run a multi-strategy review of my holdings and let the five investing masters weigh in.", "zh": "请帮我的持仓做一次多策略综合研判，听听五位投资大师怎么看。" },
+    { "en": "I want to buy Kweichow Moutai. Ask Buffett, Graham and O'Neil for advice on value, margin of safety and technical pattern respectively.", "zh": "我想买贵州茅台，请让巴菲特、格雷厄姆、欧奈尔分别从价值、安全边际、技术形态三个角度给出建议。" },
+    { "en": "How to screen growth stocks using Peter Lynch's PEG and John Neff's low P/E approach?", "zh": "如何用彼得·林奇的PEG和约翰·内夫的低市盈率法筛选成长股？" }
+  ],
+  "members": [
+    {
+      "id": "tdx-agent-market-team-lead",
+      "displayName": { "en": "Stock Intelligent Analysis System", "zh": "股票智能分析系统" },
+      "profession": { "en": "Multi-Strategy Synthesis", "zh": "多策略综合" },
+      "avatar": "avatars/tdx-agent-market-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "warren-buffett",
+      "displayName": { "en": "Warren Buffett", "zh": "巴菲特" },
+      "profession": { "en": "Get Rich Slowly", "zh": "慢慢变富" },
+      "avatar": "avatars/warren-buffett.png",
+      "role": "member"
+    },
+    {
+      "id": "peter-lynch",
+      "displayName": { "en": "Peter Lynch", "zh": "彼得·林奇" },
+      "profession": { "en": "Growth Gold Miner", "zh": "成长掘金" },
+      "avatar": "avatars/peter-lynch.png",
+      "role": "member"
+    },
+    {
+      "id": "benjamin-graham",
+      "displayName": { "en": "Benjamin Graham", "zh": "格雷厄姆" },
+      "profession": { "en": "Margin of Safety", "zh": "安全边际" },
+      "avatar": "avatars/benjamin-graham.png",
+      "role": "member"
+    },
+    {
+      "id": "william-oneil",
+      "displayName": { "en": "William O'Neil", "zh": "欧奈尔" },
+      "profession": { "en": "Trend Breakout", "zh": "趋势突破" },
+      "avatar": "avatars/william-oneil.png",
+      "role": "member"
+    },
+    {
+      "id": "john-neff",
+      "displayName": { "en": "John Neff", "zh": "约翰·内夫" },
+      "profession": { "en": "Low Valuation Gold Miner", "zh": "低估值掘金" },
+      "avatar": "avatars/john-neff.png",
+      "role": "member"
+    }
+  ]
+}
